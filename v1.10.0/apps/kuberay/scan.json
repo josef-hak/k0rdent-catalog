@@ -1,0 +1,107 @@
+{
+  "charts": {
+    "kuberay-operator": {
+      "versions": [
+        "1.6.1",
+        "1.5.1",
+        "1.3.2"
+      ],
+      "scans": {
+        "1.3.2": {
+          "images": [
+            {
+              "image": "quay.io/kuberay/operator:v1.3.2",
+              "critical": 2,
+              "high": 25,
+              "medium": 50,
+              "low": 28,
+              "total": 106
+            }
+          ],
+          "totalImages": 1,
+          "totalVulnerabilities": 106
+        },
+        "1.5.1": {
+          "images": [
+            {
+              "image": "quay.io/kuberay/operator:v1.5.1",
+              "critical": 2,
+              "high": 24,
+              "medium": 27,
+              "low": 24,
+              "total": 78
+            }
+          ],
+          "totalImages": 1,
+          "totalVulnerabilities": 78
+        },
+        "1.6.1": {
+          "images": [
+            {
+              "image": "quay.io/kuberay/operator:v1.6.1",
+              "critical": 0,
+              "high": 13,
+              "medium": 16,
+              "low": 18,
+              "total": 48
+            }
+          ],
+          "totalImages": 1,
+          "totalVulnerabilities": 48
+        }
+      }
+    },
+    "ray-cluster": {
+      "versions": [
+        "1.6.1",
+        "1.5.1",
+        "1.3.2"
+      ],
+      "scans": {
+        "1.3.2": {
+          "images": [
+            {
+              "image": "rayproject/ray:2.41.0",
+              "critical": 3,
+              "high": 54,
+              "medium": 237,
+              "low": 144,
+              "total": 438
+            }
+          ],
+          "totalImages": 1,
+          "totalVulnerabilities": 438
+        },
+        "1.5.1": {
+          "images": [
+            {
+              "image": "rayproject/ray:2.46.0",
+              "critical": 3,
+              "high": 50,
+              "medium": 197,
+              "low": 129,
+              "total": 379
+            }
+          ],
+          "totalImages": 1,
+          "totalVulnerabilities": 379
+        },
+        "1.6.1": {
+          "images": [
+            {
+              "image": "rayproject/ray:2.52.0",
+              "critical": 0,
+              "high": 48,
+              "medium": 152,
+              "low": 123,
+              "total": 323
+            }
+          ],
+          "totalImages": 1,
+          "totalVulnerabilities": 323
+        }
+      }
+    }
+  },
+  "lastScan": "2026-07-01 17:32"
+}

@@ -1,0 +1,152 @@
+{
+  "charts": {
+    "istio-base": {
+      "versions": [
+        "1.30.1",
+        "1.29.2",
+        "1.28.3",
+        "1.27.1",
+        "1.24.3"
+      ],
+      "scans": {
+        "1.24.3": {
+          "images": [],
+          "totalImages": 0,
+          "totalVulnerabilities": 0
+        },
+        "1.27.1": {
+          "images": [],
+          "totalImages": 0,
+          "totalVulnerabilities": 0
+        },
+        "1.28.3": {
+          "images": [],
+          "totalImages": 0,
+          "totalVulnerabilities": 0
+        },
+        "1.29.2": {
+          "images": [],
+          "totalImages": 0,
+          "totalVulnerabilities": 0
+        },
+        "1.30.1": {
+          "images": [],
+          "totalImages": 0,
+          "totalVulnerabilities": 0
+        }
+      }
+    },
+    "istio-gateway": {
+      "versions": [
+        "1.30.1",
+        "1.29.2",
+        "1.28.3",
+        "1.27.1"
+      ],
+      "scans": {
+        "1.27.1": {
+          "images": [],
+          "totalImages": 0,
+          "totalVulnerabilities": 0
+        },
+        "1.28.3": {
+          "images": [],
+          "totalImages": 0,
+          "totalVulnerabilities": 0
+        },
+        "1.29.2": {
+          "images": [],
+          "totalImages": 0,
+          "totalVulnerabilities": 0
+        },
+        "1.30.1": {
+          "images": [],
+          "totalImages": 0,
+          "totalVulnerabilities": 0
+        }
+      }
+    },
+    "istiod": {
+      "versions": [
+        "1.30.1",
+        "1.29.2",
+        "1.28.3",
+        "1.27.1",
+        "1.24.3"
+      ],
+      "scans": {
+        "1.24.3": {
+          "images": [
+            {
+              "image": "docker.io/istio/pilot:1.24.3",
+              "critical": 2,
+              "high": 43,
+              "medium": 192,
+              "low": 104,
+              "total": 342
+            }
+          ],
+          "totalImages": 1,
+          "totalVulnerabilities": 342
+        },
+        "1.27.1": {
+          "images": [
+            {
+              "image": "docker.io/istio/pilot:1.27.1",
+              "critical": 2,
+              "high": 42,
+              "medium": 135,
+              "low": 88,
+              "total": 268
+            }
+          ],
+          "totalImages": 1,
+          "totalVulnerabilities": 268
+        },
+        "1.28.3": {
+          "images": [
+            {
+              "image": "docker.io/istio/pilot:1.28.3",
+              "critical": 2,
+              "high": 41,
+              "medium": 114,
+              "low": 85,
+              "total": 243
+            }
+          ],
+          "totalImages": 1,
+          "totalVulnerabilities": 243
+        },
+        "1.29.2": {
+          "images": [
+            {
+              "image": "docker.io/istio/pilot:1.29.2",
+              "critical": 0,
+              "high": 31,
+              "medium": 78,
+              "low": 42,
+              "total": 152
+            }
+          ],
+          "totalImages": 1,
+          "totalVulnerabilities": 152
+        },
+        "1.30.1": {
+          "images": [
+            {
+              "image": "registry.istio.io/release/pilot:1.30.1",
+              "critical": 0,
+              "high": 19,
+              "medium": 72,
+              "low": 42,
+              "total": 133
+            }
+          ],
+          "totalImages": 1,
+          "totalVulnerabilities": 133
+        }
+      }
+    }
+  },
+  "lastScan": "2026-07-01 17:29"
+}

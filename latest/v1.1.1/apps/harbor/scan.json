@@ -1,0 +1,82 @@
+{
+  "charts": {
+    "harbor": {
+      "versions": [
+        "1.18.3"
+      ],
+      "scans": {
+        "1.18.3": {
+          "images": [
+            {
+              "image": "goharbor/harbor-core:v2.14.3",
+              "critical": 8,
+              "high": 79,
+              "medium": 60,
+              "low": 6,
+              "total": 154
+            },
+            {
+              "image": "goharbor/harbor-db:v2.14.3",
+              "critical": 13,
+              "high": 72,
+              "medium": 57,
+              "low": 8,
+              "total": 150
+            },
+            {
+              "image": "goharbor/harbor-jobservice:v2.14.3",
+              "critical": 8,
+              "high": 78,
+              "medium": 57,
+              "low": 6,
+              "total": 150
+            },
+            {
+              "image": "goharbor/harbor-portal:v2.14.3",
+              "critical": 13,
+              "high": 62,
+              "medium": 49,
+              "low": 5,
+              "total": 129
+            },
+            {
+              "image": "goharbor/harbor-registryctl:v2.14.3",
+              "critical": 8,
+              "high": 88,
+              "medium": 65,
+              "low": 6,
+              "total": 168
+            },
+            {
+              "image": "goharbor/redis-photon:v2.14.3",
+              "critical": 13,
+              "high": 62,
+              "medium": 49,
+              "low": 5,
+              "total": 129
+            },
+            {
+              "image": "goharbor/registry-photon:v2.14.3",
+              "critical": 7,
+              "high": 59,
+              "medium": 47,
+              "low": 5,
+              "total": 118
+            },
+            {
+              "image": "goharbor/trivy-adapter-photon:v2.14.3",
+              "critical": 8,
+              "high": 113,
+              "medium": 87,
+              "low": 10,
+              "total": 220
+            }
+          ],
+          "totalImages": 8,
+          "totalVulnerabilities": 1218
+        }
+      }
+    }
+  },
+  "lastScan": "2026-07-01 17:29"
+}

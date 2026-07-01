@@ -1,0 +1,41 @@
+{
+  "charts": {
+    "flux-operator": {
+      "versions": [
+        "0.32.0",
+        "0.27.0"
+      ],
+      "scans": {
+        "0.27.0": {
+          "images": [
+            {
+              "image": "ghcr.io/controlplaneio-fluxcd/flux-operator:v0.27.0",
+              "critical": 2,
+              "high": 32,
+              "medium": 39,
+              "low": 4,
+              "total": 78
+            }
+          ],
+          "totalImages": 1,
+          "totalVulnerabilities": 78
+        },
+        "0.32.0": {
+          "images": [
+            {
+              "image": "ghcr.io/controlplaneio-fluxcd/flux-operator:v0.32.0",
+              "critical": 2,
+              "high": 32,
+              "medium": 27,
+              "low": 3,
+              "total": 65
+            }
+          ],
+          "totalImages": 1,
+          "totalVulnerabilities": 65
+        }
+      }
+    }
+  },
+  "lastScan": "2026-07-01 17:27"
+}

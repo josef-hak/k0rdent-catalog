@@ -1,0 +1,26 @@
+{
+  "charts": {
+    "fluentd": {
+      "versions": [
+        "0.5.3"
+      ],
+      "scans": {
+        "0.5.3": {
+          "images": [
+            {
+              "image": "fluent/fluentd-kubernetes-daemonset:v1.17.1-debian-elasticsearch7-1.2",
+              "critical": 13,
+              "high": 74,
+              "medium": 136,
+              "low": 123,
+              "total": 366
+            }
+          ],
+          "totalImages": 1,
+          "totalVulnerabilities": 366
+        }
+      }
+    }
+  },
+  "lastScan": "2026-07-01 17:28"
+}

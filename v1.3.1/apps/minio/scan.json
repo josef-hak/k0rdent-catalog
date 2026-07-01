@@ -1,0 +1,17 @@
+{
+  "charts": {
+    "minio": {
+      "versions": [
+        "14.1.2"
+      ],
+      "scans": {
+        "14.1.2": {
+          "images": [],
+          "totalImages": 0,
+          "totalVulnerabilities": 0
+        }
+      }
+    }
+  },
+  "lastScan": "2026-07-01 17:30"
+}

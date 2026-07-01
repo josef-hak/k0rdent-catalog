@@ -1,0 +1,41 @@
+{
+  "charts": {
+    "mongodb-community-operator": {
+      "versions": [
+        "0.13.0",
+        "0.12.0"
+      ],
+      "scans": {
+        "0.12.0": {
+          "images": [
+            {
+              "image": "quay.io/mongodb/mongodb-kubernetes-operator:0.12.0",
+              "critical": 1,
+              "high": 33,
+              "medium": 176,
+              "low": 131,
+              "total": 342
+            }
+          ],
+          "totalImages": 1,
+          "totalVulnerabilities": 342
+        },
+        "0.13.0": {
+          "images": [
+            {
+              "image": "quay.io/mongodb/mongodb-kubernetes-operator:0.13.0",
+              "critical": 1,
+              "high": 36,
+              "medium": 185,
+              "low": 130,
+              "total": 353
+            }
+          ],
+          "totalImages": 1,
+          "totalVulnerabilities": 353
+        }
+      }
+    }
+  },
+  "lastScan": "2026-07-01 17:30"
+}

@@ -1,0 +1,213 @@
+{
+  "charts": {
+    "open-webui": {
+      "versions": [
+        "14.1.0",
+        "10.2.1",
+        "8.12.3",
+        "8.10.0",
+        "6.20.0",
+        "5.20.0"
+      ],
+      "scans": {
+        "10.2.1": {
+          "images": [
+            {
+              "image": "ghcr.io/open-webui/open-webui:0.7.2",
+              "critical": 48,
+              "high": 575,
+              "medium": 2440,
+              "low": 1057,
+              "total": 4186
+            },
+            {
+              "image": "ghcr.io/open-webui/pipelines:main",
+              "critical": 25,
+              "high": 593,
+              "medium": 2422,
+              "low": 981,
+              "total": 4055
+            },
+            {
+              "image": "ollama/ollama:0.13.3",
+              "critical": 1,
+              "high": 31,
+              "medium": 111,
+              "low": 52,
+              "total": 199
+            },
+            {
+              "image": "redis:7.4.2-alpine3.21",
+              "critical": 6,
+              "high": 58,
+              "medium": 64,
+              "low": 23,
+              "total": 152
+            }
+          ],
+          "totalImages": 4,
+          "totalVulnerabilities": 8592
+        },
+        "14.1.0": {
+          "images": [
+            {
+              "image": "ghcr.io/open-webui/open-webui:0.9.1",
+              "critical": 52,
+              "high": 498,
+              "medium": 2129,
+              "low": 1002,
+              "total": 3747
+            },
+            {
+              "image": "ghcr.io/open-webui/pipelines:main",
+              "critical": 25,
+              "high": 593,
+              "medium": 2422,
+              "low": 981,
+              "total": 4055
+            },
+            {
+              "image": "ollama/ollama:0.19.0",
+              "critical": 1,
+              "high": 30,
+              "medium": 94,
+              "low": 36,
+              "total": 165
+            },
+            {
+              "image": "redis:7.4.2-alpine3.21",
+              "critical": 6,
+              "high": 58,
+              "medium": 64,
+              "low": 23,
+              "total": 152
+            }
+          ],
+          "totalImages": 4,
+          "totalVulnerabilities": 8119
+        },
+        "5.20.0": {
+          "images": [
+            {
+              "image": "ghcr.io/open-webui/open-webui:0.5.16",
+              "critical": 53,
+              "high": 953,
+              "medium": 3480,
+              "low": 1131,
+              "total": 5684
+            },
+            {
+              "image": "ghcr.io/open-webui/pipelines:main",
+              "critical": 25,
+              "high": 593,
+              "medium": 2422,
+              "low": 981,
+              "total": 4055
+            },
+            {
+              "image": "ollama/ollama:0.5.12",
+              "critical": 1,
+              "high": 29,
+              "medium": 54,
+              "low": 7,
+              "total": 95
+            }
+          ],
+          "totalImages": 3,
+          "totalVulnerabilities": 9834
+        },
+        "6.20.0": {
+          "images": [
+            {
+              "image": "ghcr.io/open-webui/open-webui:0.6.14",
+              "critical": 52,
+              "high": 810,
+              "medium": 3058,
+              "low": 1089,
+              "total": 5076
+            },
+            {
+              "image": "ghcr.io/open-webui/pipelines:main",
+              "critical": 25,
+              "high": 593,
+              "medium": 2422,
+              "low": 981,
+              "total": 4055
+            },
+            {
+              "image": "ollama/ollama:0.9.0",
+              "critical": 1,
+              "high": 28,
+              "medium": 45,
+              "low": 2,
+              "total": 80
+            }
+          ],
+          "totalImages": 3,
+          "totalVulnerabilities": 9211
+        },
+        "8.10.0": {
+          "images": [
+            {
+              "image": "ghcr.io/open-webui/open-webui:0.6.33",
+              "critical": 50,
+              "high": 605,
+              "medium": 2585,
+              "low": 1081,
+              "total": 4387
+            },
+            {
+              "image": "ghcr.io/open-webui/pipelines:main",
+              "critical": 25,
+              "high": 593,
+              "medium": 2422,
+              "low": 981,
+              "total": 4055
+            },
+            {
+              "image": "ollama/ollama:0.12.3",
+              "critical": 1,
+              "high": 31,
+              "medium": 112,
+              "low": 49,
+              "total": 197
+            }
+          ],
+          "totalImages": 3,
+          "totalVulnerabilities": 8639
+        },
+        "8.12.3": {
+          "images": [
+            {
+              "image": "ghcr.io/open-webui/open-webui:0.6.34",
+              "critical": 50,
+              "high": 603,
+              "medium": 2579,
+              "low": 1079,
+              "total": 4377
+            },
+            {
+              "image": "ghcr.io/open-webui/pipelines:main",
+              "critical": 25,
+              "high": 593,
+              "medium": 2422,
+              "low": 981,
+              "total": 4055
+            },
+            {
+              "image": "ollama/ollama:0.12.3",
+              "critical": 1,
+              "high": 31,
+              "medium": 112,
+              "low": 49,
+              "total": 197
+            }
+          ],
+          "totalImages": 3,
+          "totalVulnerabilities": 8629
+        }
+      }
+    }
+  },
+  "lastScan": "2026-07-01 17:38"
+}

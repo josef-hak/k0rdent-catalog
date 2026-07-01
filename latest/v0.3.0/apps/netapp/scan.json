@@ -1,0 +1,56 @@
+{
+  "charts": {
+    "trident-operator": {
+      "versions": [
+        "100.2510.0",
+        "100.2506.0",
+        "100.2410.0"
+      ],
+      "scans": {
+        "100.2410.0": {
+          "images": [
+            {
+              "image": "docker.io/netapp/trident-operator:24.10.0",
+              "critical": 2,
+              "high": 36,
+              "medium": 45,
+              "low": 3,
+              "total": 87
+            }
+          ],
+          "totalImages": 1,
+          "totalVulnerabilities": 87
+        },
+        "100.2506.0": {
+          "images": [
+            {
+              "image": "docker.io/netapp/trident-operator:25.06.0",
+              "critical": 2,
+              "high": 28,
+              "medium": 34,
+              "low": 2,
+              "total": 67
+            }
+          ],
+          "totalImages": 1,
+          "totalVulnerabilities": 67
+        },
+        "100.2510.0": {
+          "images": [
+            {
+              "image": "docker.io/netapp/trident-operator:25.10.0",
+              "critical": 2,
+              "high": 28,
+              "medium": 21,
+              "low": 1,
+              "total": 53
+            }
+          ],
+          "totalImages": 1,
+          "totalVulnerabilities": 53
+        }
+      }
+    }
+  },
+  "lastScan": "2026-07-01 17:31"
+}

@@ -1,0 +1,161 @@
+{
+  "charts": {
+    "clearml-serving": {
+      "versions": [
+        "1.6.2",
+        "1.5.10"
+      ],
+      "scans": {
+        "1.5.10": {
+          "images": [
+            {
+              "image": "allegroai/clearml-serving-inference:1.3.0",
+              "critical": 247,
+              "high": 2349,
+              "medium": 5572,
+              "low": 1884,
+              "total": 10213
+            },
+            {
+              "image": "allegroai/clearml-serving-statistics:1.3.0",
+              "critical": 246,
+              "high": 2328,
+              "medium": 5556,
+              "low": 1880,
+              "total": 10171
+            },
+            {
+              "image": "bats/bats:v1.4.1",
+              "critical": 1,
+              "high": 15,
+              "medium": 14,
+              "low": 0,
+              "total": 30
+            },
+            {
+              "image": "grafana/grafana:9.4.3",
+              "critical": 19,
+              "high": 125,
+              "medium": 191,
+              "low": 18,
+              "total": 354
+            },
+            {
+              "image": "jimmidyson/configmap-reload:v0.8.0",
+              "critical": 4,
+              "high": 29,
+              "medium": 48,
+              "low": 3,
+              "total": 85
+            },
+            {
+              "image": "quay.io/prometheus/alertmanager:v0.25.0",
+              "critical": 8,
+              "high": 98,
+              "medium": 126,
+              "low": 6,
+              "total": 240
+            },
+            {
+              "image": "quay.io/prometheus/prometheus:v2.41.0",
+              "critical": 12,
+              "high": 115,
+              "medium": 143,
+              "low": 10,
+              "total": 282
+            }
+          ],
+          "totalImages": 7,
+          "totalVulnerabilities": 21375
+        },
+        "1.6.2": {
+          "images": [
+            {
+              "image": "allegroai/clearml-serving-inference:1.3.0",
+              "critical": 247,
+              "high": 2349,
+              "medium": 5572,
+              "low": 1884,
+              "total": 10213
+            },
+            {
+              "image": "allegroai/clearml-serving-statistics:1.3.0",
+              "critical": 246,
+              "high": 2328,
+              "medium": 5556,
+              "low": 1880,
+              "total": 10171
+            },
+            {
+              "image": "allegroai/clearml-serving-triton:1.3.0",
+              "critical": 1,
+              "high": 137,
+              "medium": 3338,
+              "low": 427,
+              "total": 3903
+            },
+            {
+              "image": "bats/bats:v1.4.1",
+              "critical": 1,
+              "high": 15,
+              "medium": 14,
+              "low": 0,
+              "total": 30
+            },
+            {
+              "image": "docker.io/bitnamilegacy/kafka:3.4.0-debian-11-r6",
+              "critical": 27,
+              "high": 198,
+              "medium": 362,
+              "low": 208,
+              "total": 826
+            },
+            {
+              "image": "docker.io/bitnamilegacy/zookeeper:3.8.1-debian-11-r6",
+              "critical": 20,
+              "high": 163,
+              "medium": 277,
+              "low": 172,
+              "total": 655
+            },
+            {
+              "image": "grafana/grafana:9.4.3",
+              "critical": 19,
+              "high": 125,
+              "medium": 191,
+              "low": 18,
+              "total": 354
+            },
+            {
+              "image": "jimmidyson/configmap-reload:v0.8.0",
+              "critical": 4,
+              "high": 29,
+              "medium": 48,
+              "low": 3,
+              "total": 85
+            },
+            {
+              "image": "quay.io/prometheus/alertmanager:v0.25.0",
+              "critical": 8,
+              "high": 98,
+              "medium": 126,
+              "low": 6,
+              "total": 240
+            },
+            {
+              "image": "quay.io/prometheus/prometheus:v2.41.0",
+              "critical": 12,
+              "high": 115,
+              "medium": 143,
+              "low": 10,
+              "total": 282
+            }
+          ],
+          "totalImages": 10,
+          "totalVulnerabilities": 26759
+        }
+      }
+    }
+  },
+  "lastScan": "2026-07-01 17:39"
+}

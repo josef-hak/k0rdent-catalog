@@ -1,0 +1,41 @@
+{
+  "charts": {
+    "eck-operator": {
+      "versions": [
+        "3.3.0",
+        "3.1.0"
+      ],
+      "scans": {
+        "3.1.0": {
+          "images": [
+            {
+              "image": "docker.elastic.co/eck/eck-operator:3.1.0",
+              "critical": 2,
+              "high": 31,
+              "medium": 34,
+              "low": 2,
+              "total": 70
+            }
+          ],
+          "totalImages": 1,
+          "totalVulnerabilities": 70
+        },
+        "3.3.0": {
+          "images": [
+            {
+              "image": "docker.elastic.co/eck/eck-operator:3.3.0",
+              "critical": 2,
+              "high": 28,
+              "medium": 15,
+              "low": 1,
+              "total": 47
+            }
+          ],
+          "totalImages": 1,
+          "totalVulnerabilities": 47
+        }
+      }
+    }
+  },
+  "lastScan": "2026-07-01 17:27"
+}

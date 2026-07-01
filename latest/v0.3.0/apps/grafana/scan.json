@@ -1,0 +1,80 @@
+{
+  "charts": {
+    "grafana": {
+      "versions": [
+        "10.5.15",
+        "10.1.0",
+        "9.3.6"
+      ],
+      "scans": {
+        "10.1.0": {
+          "images": [
+            {
+              "image": "docker.io/bats/bats:v1.4.1",
+              "critical": 1,
+              "high": 15,
+              "medium": 14,
+              "low": 0,
+              "total": 30
+            },
+            {
+              "image": "docker.io/grafana/grafana:12.2.0",
+              "critical": 9,
+              "high": 80,
+              "medium": 123,
+              "low": 52,
+              "total": 267
+            }
+          ],
+          "totalImages": 2,
+          "totalVulnerabilities": 297
+        },
+        "10.5.15": {
+          "images": [
+            {
+              "image": "docker.io/bats/bats:v1.4.1",
+              "critical": 1,
+              "high": 15,
+              "medium": 14,
+              "low": 0,
+              "total": 30
+            },
+            {
+              "image": "docker.io/grafana/grafana:12.3.1",
+              "critical": 8,
+              "high": 78,
+              "medium": 93,
+              "low": 46,
+              "total": 228
+            }
+          ],
+          "totalImages": 2,
+          "totalVulnerabilities": 258
+        },
+        "9.3.6": {
+          "images": [
+            {
+              "image": "docker.io/bats/bats:v1.4.1",
+              "critical": 1,
+              "high": 15,
+              "medium": 14,
+              "low": 0,
+              "total": 30
+            },
+            {
+              "image": "docker.io/grafana/grafana:12.1.0",
+              "critical": 13,
+              "high": 92,
+              "medium": 167,
+              "low": 34,
+              "total": 309
+            }
+          ],
+          "totalImages": 2,
+          "totalVulnerabilities": 339
+        }
+      }
+    }
+  },
+  "lastScan": "2026-07-01 17:29"
+}

@@ -1,0 +1,26 @@
+{
+  "charts": {
+    "opensearch": {
+      "versions": [
+        "3.3.2"
+      ],
+      "scans": {
+        "3.3.2": {
+          "images": [
+            {
+              "image": "opensearchproject/opensearch:3.3.2",
+              "critical": 0,
+              "high": 177,
+              "medium": 152,
+              "low": 9,
+              "total": 338
+            }
+          ],
+          "totalImages": 1,
+          "totalVulnerabilities": 338
+        }
+      }
+    }
+  },
+  "lastScan": "2026-07-01 17:30"
+}

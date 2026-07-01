@@ -1,0 +1,105 @@
+{
+  "charts": {
+    "dapr": {
+      "versions": [
+        "1.16.9",
+        "1.14.4"
+      ],
+      "scans": {
+        "1.14.4": {
+          "images": [
+            {
+              "image": "ghcr.io/dapr/injector:1.14.4",
+              "critical": 2,
+              "high": 23,
+              "medium": 39,
+              "low": 3,
+              "total": 68
+            },
+            {
+              "image": "ghcr.io/dapr/operator:1.14.4",
+              "critical": 2,
+              "high": 23,
+              "medium": 39,
+              "low": 3,
+              "total": 68
+            },
+            {
+              "image": "ghcr.io/dapr/placement:1.14.4",
+              "critical": 2,
+              "high": 35,
+              "medium": 45,
+              "low": 3,
+              "total": 86
+            },
+            {
+              "image": "ghcr.io/dapr/scheduler:1.14.4",
+              "critical": 2,
+              "high": 36,
+              "medium": 45,
+              "low": 4,
+              "total": 88
+            },
+            {
+              "image": "ghcr.io/dapr/sentry:1.14.4",
+              "critical": 2,
+              "high": 35,
+              "medium": 45,
+              "low": 3,
+              "total": 86
+            }
+          ],
+          "totalImages": 5,
+          "totalVulnerabilities": 396
+        },
+        "1.16.9": {
+          "images": [
+            {
+              "image": "ghcr.io/dapr/injector:1.16.9",
+              "critical": 1,
+              "high": 28,
+              "medium": 15,
+              "low": 1,
+              "total": 46
+            },
+            {
+              "image": "ghcr.io/dapr/operator:1.16.9",
+              "critical": 1,
+              "high": 28,
+              "medium": 15,
+              "low": 1,
+              "total": 46
+            },
+            {
+              "image": "ghcr.io/dapr/placement:1.16.9",
+              "critical": 1,
+              "high": 28,
+              "medium": 15,
+              "low": 1,
+              "total": 46
+            },
+            {
+              "image": "ghcr.io/dapr/scheduler:1.16.9",
+              "critical": 1,
+              "high": 28,
+              "medium": 15,
+              "low": 1,
+              "total": 46
+            },
+            {
+              "image": "ghcr.io/dapr/sentry:1.16.9",
+              "critical": 1,
+              "high": 28,
+              "medium": 15,
+              "low": 1,
+              "total": 46
+            }
+          ],
+          "totalImages": 5,
+          "totalVulnerabilities": 230
+        }
+      }
+    }
+  },
+  "lastScan": "2026-07-01 17:29"
+}

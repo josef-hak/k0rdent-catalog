@@ -1,0 +1,41 @@
+{
+  "charts": {
+    "node-feature-discovery": {
+      "versions": [
+        "0.18.3",
+        "0.16.1"
+      ],
+      "scans": {
+        "0.16.1": {
+          "images": [
+            {
+              "image": "registry.k8s.io/nfd/node-feature-discovery:v0.16.1",
+              "critical": 15,
+              "high": 140,
+              "medium": 239,
+              "low": 15,
+              "total": 414
+            }
+          ],
+          "totalImages": 1,
+          "totalVulnerabilities": 414
+        },
+        "0.18.3": {
+          "images": [
+            {
+              "image": "registry.k8s.io/nfd/node-feature-discovery:v0.18.3",
+              "critical": 7,
+              "high": 162,
+              "medium": 134,
+              "low": 6,
+              "total": 315
+            }
+          ],
+          "totalImages": 1,
+          "totalVulnerabilities": 315
+        }
+      }
+    }
+  },
+  "lastScan": "2026-07-01 17:31"
+}

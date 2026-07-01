@@ -1,0 +1,26 @@
+{
+  "charts": {
+    "vllm-stack": {
+      "versions": [
+        "0.1.11"
+      ],
+      "scans": {
+        "0.1.11": {
+          "images": [
+            {
+              "image": "lmcache/lmstack-router:latest",
+              "critical": 10,
+              "high": 37,
+              "medium": 137,
+              "low": 131,
+              "total": 358
+            }
+          ],
+          "totalImages": 1,
+          "totalVulnerabilities": 358
+        }
+      }
+    }
+  },
+  "lastScan": "2026-07-01 17:33"
+}

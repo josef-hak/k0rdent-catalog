@@ -1,0 +1,469 @@
+{
+  "charts": {
+    "kube-prometheus-stack": {
+      "versions": [
+        "86.2.3",
+        "84.2.1",
+        "81.6.3",
+        "77.0.0",
+        "72.6.2",
+        "69.7.4"
+      ],
+      "scans": {
+        "69.7.4": {
+          "images": [
+            {
+              "image": "docker.io/bats/bats:v1.4.1",
+              "critical": 1,
+              "high": 15,
+              "medium": 14,
+              "low": 0,
+              "total": 30
+            },
+            {
+              "image": "docker.io/grafana/grafana:11.5.2",
+              "critical": 8,
+              "high": 85,
+              "medium": 141,
+              "low": 35,
+              "total": 272
+            },
+            {
+              "image": "quay.io/kiwigrid/k8s-sidecar:1.30.0",
+              "critical": 3,
+              "high": 31,
+              "medium": 27,
+              "low": 23,
+              "total": 84
+            },
+            {
+              "image": "quay.io/prometheus-operator/prometheus-operator:v0.80.1",
+              "critical": 1,
+              "high": 20,
+              "medium": 37,
+              "low": 2,
+              "total": 61
+            },
+            {
+              "image": "quay.io/prometheus/alertmanager:v0.28.0",
+              "critical": 2,
+              "high": 58,
+              "medium": 86,
+              "low": 6,
+              "total": 154
+            },
+            {
+              "image": "quay.io/prometheus/node-exporter:v1.9.0",
+              "critical": 1,
+              "high": 30,
+              "medium": 40,
+              "low": 2,
+              "total": 74
+            },
+            {
+              "image": "quay.io/prometheus/prometheus:v3.2.1",
+              "critical": 4,
+              "high": 68,
+              "medium": 89,
+              "low": 6,
+              "total": 169
+            },
+            {
+              "image": "registry.k8s.io/ingress-nginx/kube-webhook-certgen:v1.5.1",
+              "critical": 1,
+              "high": 18,
+              "medium": 36,
+              "low": 3,
+              "total": 59
+            },
+            {
+              "image": "registry.k8s.io/kube-state-metrics/kube-state-metrics:v2.15.0",
+              "critical": 1,
+              "high": 29,
+              "medium": 41,
+              "low": 2,
+              "total": 74
+            }
+          ],
+          "totalImages": 9,
+          "totalVulnerabilities": 977
+        },
+        "72.6.2": {
+          "images": [
+            {
+              "image": "docker.io/bats/bats:v1.4.1",
+              "critical": 1,
+              "high": 15,
+              "medium": 14,
+              "low": 0,
+              "total": 30
+            },
+            {
+              "image": "docker.io/grafana/grafana:12.0.0",
+              "critical": 9,
+              "high": 83,
+              "medium": 136,
+              "low": 33,
+              "total": 264
+            },
+            {
+              "image": "quay.io/kiwigrid/k8s-sidecar:1.30.0",
+              "critical": 3,
+              "high": 31,
+              "medium": 27,
+              "low": 23,
+              "total": 84
+            },
+            {
+              "image": "quay.io/prometheus-operator/prometheus-operator:v0.82.2",
+              "critical": 1,
+              "high": 20,
+              "medium": 32,
+              "low": 2,
+              "total": 56
+            },
+            {
+              "image": "quay.io/prometheus/alertmanager:v0.28.1",
+              "critical": 2,
+              "high": 58,
+              "medium": 80,
+              "low": 4,
+              "total": 146
+            },
+            {
+              "image": "quay.io/prometheus/node-exporter:v1.9.1",
+              "critical": 1,
+              "high": 28,
+              "medium": 38,
+              "low": 2,
+              "total": 70
+            },
+            {
+              "image": "quay.io/prometheus/prometheus:v3.4.0",
+              "critical": 4,
+              "high": 66,
+              "medium": 83,
+              "low": 4,
+              "total": 159
+            },
+            {
+              "image": "registry.k8s.io/ingress-nginx/kube-webhook-certgen:v1.5.3",
+              "critical": 1,
+              "high": 18,
+              "medium": 30,
+              "low": 2,
+              "total": 52
+            },
+            {
+              "image": "registry.k8s.io/kube-state-metrics/kube-state-metrics:v2.15.0",
+              "critical": 1,
+              "high": 29,
+              "medium": 41,
+              "low": 2,
+              "total": 74
+            }
+          ],
+          "totalImages": 9,
+          "totalVulnerabilities": 935
+        },
+        "77.0.0": {
+          "images": [
+            {
+              "image": "docker.io/bats/bats:v1.4.1",
+              "critical": 1,
+              "high": 15,
+              "medium": 14,
+              "low": 0,
+              "total": 30
+            },
+            {
+              "image": "docker.io/grafana/grafana:12.1.0",
+              "critical": 13,
+              "high": 92,
+              "medium": 167,
+              "low": 34,
+              "total": 309
+            },
+            {
+              "image": "quay.io/kiwigrid/k8s-sidecar:1.30.3",
+              "critical": 3,
+              "high": 27,
+              "medium": 27,
+              "low": 21,
+              "total": 78
+            },
+            {
+              "image": "quay.io/prometheus-operator/prometheus-operator:v0.85.0",
+              "critical": 1,
+              "high": 20,
+              "medium": 28,
+              "low": 2,
+              "total": 52
+            },
+            {
+              "image": "quay.io/prometheus/alertmanager:v0.28.1",
+              "critical": 2,
+              "high": 58,
+              "medium": 80,
+              "low": 4,
+              "total": 146
+            },
+            {
+              "image": "quay.io/prometheus/node-exporter:v1.9.1",
+              "critical": 1,
+              "high": 28,
+              "medium": 38,
+              "low": 2,
+              "total": 70
+            },
+            {
+              "image": "quay.io/prometheus/prometheus:v3.5.0",
+              "critical": 4,
+              "high": 66,
+              "medium": 81,
+              "low": 4,
+              "total": 157
+            },
+            {
+              "image": "registry.k8s.io/ingress-nginx/kube-webhook-certgen:v1.6.1",
+              "critical": 1,
+              "high": 17,
+              "medium": 25,
+              "low": 2,
+              "total": 46
+            },
+            {
+              "image": "registry.k8s.io/kube-state-metrics/kube-state-metrics:v2.16.0",
+              "critical": 2,
+              "high": 29,
+              "medium": 35,
+              "low": 2,
+              "total": 69
+            }
+          ],
+          "totalImages": 9,
+          "totalVulnerabilities": 957
+        },
+        "81.6.3": {
+          "images": [
+            {
+              "image": "docker.io/bats/bats:1.13.0",
+              "critical": 2,
+              "high": 13,
+              "medium": 15,
+              "low": 20,
+              "total": 50
+            },
+            {
+              "image": "docker.io/grafana/grafana:12.3.2",
+              "critical": 8,
+              "high": 75,
+              "medium": 84,
+              "low": 46,
+              "total": 216
+            },
+            {
+              "image": "ghcr.io/jkroepke/kube-webhook-certgen:1.7.6",
+              "critical": 1,
+              "high": 16,
+              "medium": 13,
+              "low": 1,
+              "total": 32
+            },
+            {
+              "image": "quay.io/kiwigrid/k8s-sidecar:2.5.0",
+              "critical": 2,
+              "high": 22,
+              "medium": 29,
+              "low": 41,
+              "total": 94
+            },
+            {
+              "image": "quay.io/prometheus-operator/prometheus-operator:v0.88.1",
+              "critical": 1,
+              "high": 18,
+              "medium": 14,
+              "low": 1,
+              "total": 35
+            },
+            {
+              "image": "quay.io/prometheus/alertmanager:v0.31.0",
+              "critical": 4,
+              "high": 54,
+              "medium": 34,
+              "low": 2,
+              "total": 96
+            },
+            {
+              "image": "quay.io/prometheus/node-exporter:v1.10.2",
+              "critical": 1,
+              "high": 28,
+              "medium": 22,
+              "low": 1,
+              "total": 53
+            },
+            {
+              "image": "quay.io/prometheus/prometheus:v3.9.1",
+              "critical": 4,
+              "high": 60,
+              "medium": 43,
+              "low": 2,
+              "total": 111
+            },
+            {
+              "image": "registry.k8s.io/kube-state-metrics/kube-state-metrics:v2.18.0",
+              "critical": 2,
+              "high": 28,
+              "medium": 17,
+              "low": 1,
+              "total": 49
+            }
+          ],
+          "totalImages": 9,
+          "totalVulnerabilities": 736
+        },
+        "84.2.1": {
+          "images": [
+            {
+              "image": "docker.io/grafana/grafana:13.0.1",
+              "critical": 4,
+              "high": 70,
+              "medium": 69,
+              "low": 28,
+              "total": 173
+            },
+            {
+              "image": "ghcr.io/jkroepke/kube-webhook-certgen:1.8.2",
+              "critical": 0,
+              "high": 10,
+              "medium": 7,
+              "low": 0,
+              "total": 18
+            },
+            {
+              "image": "quay.io/kiwigrid/k8s-sidecar:2.7.1",
+              "critical": 2,
+              "high": 14,
+              "medium": 20,
+              "low": 21,
+              "total": 57
+            },
+            {
+              "image": "quay.io/prometheus-operator/prometheus-operator:v0.90.1",
+              "critical": 0,
+              "high": 16,
+              "medium": 12,
+              "low": 0,
+              "total": 29
+            },
+            {
+              "image": "quay.io/prometheus/alertmanager:v0.32.0",
+              "critical": 0,
+              "high": 42,
+              "medium": 24,
+              "low": 0,
+              "total": 68
+            },
+            {
+              "image": "quay.io/prometheus/node-exporter:v1.11.1",
+              "critical": 0,
+              "high": 24,
+              "medium": 14,
+              "low": 0,
+              "total": 39
+            },
+            {
+              "image": "quay.io/prometheus/prometheus:v3.11.2",
+              "critical": 0,
+              "high": 48,
+              "medium": 27,
+              "low": 0,
+              "total": 77
+            },
+            {
+              "image": "registry.k8s.io/kube-state-metrics/kube-state-metrics:v2.18.0",
+              "critical": 2,
+              "high": 28,
+              "medium": 17,
+              "low": 1,
+              "total": 49
+            }
+          ],
+          "totalImages": 8,
+          "totalVulnerabilities": 510
+        },
+        "86.2.3": {
+          "images": [
+            {
+              "image": "docker.io/grafana/grafana:13.0.2",
+              "critical": 0,
+              "high": 26,
+              "medium": 25,
+              "low": 21,
+              "total": 73
+            },
+            {
+              "image": "ghcr.io/jkroepke/kube-webhook-certgen:1.8.3",
+              "critical": 0,
+              "high": 5,
+              "medium": 4,
+              "low": 0,
+              "total": 9
+            },
+            {
+              "image": "quay.io/kiwigrid/k8s-sidecar:2.7.3",
+              "critical": 0,
+              "high": 3,
+              "medium": 9,
+              "low": 20,
+              "total": 32
+            },
+            {
+              "image": "quay.io/prometheus-operator/prometheus-operator:v0.91.0",
+              "critical": 0,
+              "high": 10,
+              "medium": 7,
+              "low": 0,
+              "total": 18
+            },
+            {
+              "image": "quay.io/prometheus/alertmanager:v0.33.0",
+              "critical": 0,
+              "high": 18,
+              "medium": 8,
+              "low": 0,
+              "total": 26
+            },
+            {
+              "image": "quay.io/prometheus/node-exporter:v1.11.1-distroless",
+              "critical": 0,
+              "high": 24,
+              "medium": 14,
+              "low": 0,
+              "total": 39
+            },
+            {
+              "image": "quay.io/prometheus/prometheus:v3.12.0-distroless",
+              "critical": 0,
+              "high": 20,
+              "medium": 12,
+              "low": 0,
+              "total": 32
+            },
+            {
+              "image": "registry.k8s.io/kube-state-metrics/kube-state-metrics:v2.19.1",
+              "critical": 0,
+              "high": 0,
+              "medium": 0,
+              "low": 0,
+              "total": 0
+            }
+          ],
+          "totalImages": 8,
+          "totalVulnerabilities": 229
+        }
+      }
+    }
+  },
+  "lastScan": "2026-07-01 17:30"
+}

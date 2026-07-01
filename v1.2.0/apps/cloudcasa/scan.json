@@ -1,0 +1,26 @@
+{
+  "charts": {
+    "cloudcasa": {
+      "versions": [
+        "3.4.6"
+      ],
+      "scans": {
+        "3.4.6": {
+          "images": [
+            {
+              "image": "cloudcasaAgent.azurecr.io/catalogicsoftware/amds-kagent:3.1.0-prod",
+              "critical": 13,
+              "high": 248,
+              "medium": 540,
+              "low": 303,
+              "total": 1111
+            }
+          ],
+          "totalImages": 1,
+          "totalVulnerabilities": 1111
+        }
+      }
+    }
+  },
+  "lastScan": "2026-07-01 17:28"
+}

@@ -1,0 +1,34 @@
+{
+  "charts": {
+    "harness-delegate-ng": {
+      "versions": [
+        "1.0.31"
+      ],
+      "scans": {
+        "1.0.31": {
+          "images": [
+            {
+              "image": "us-docker.pkg.dev/gar-prod-setup/harness-public/harness/delegate:26.01.88200",
+              "critical": 20,
+              "high": 363,
+              "medium": 676,
+              "low": 183,
+              "total": 1248
+            },
+            {
+              "image": "us-docker.pkg.dev/gar-prod-setup/harness-public/harness/upgrader:latest",
+              "critical": 0,
+              "high": 11,
+              "medium": 21,
+              "low": 6,
+              "total": 38
+            }
+          ],
+          "totalImages": 2,
+          "totalVulnerabilities": 1286
+        }
+      }
+    }
+  },
+  "lastScan": "2026-07-01 17:29"
+}

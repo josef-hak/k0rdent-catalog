@@ -1,0 +1,26 @@
+{
+  "charts": {
+    "redis": {
+      "versions": [
+        "0.2.0"
+      ],
+      "scans": {
+        "0.2.0": {
+          "images": [
+            {
+              "image": "docker.io/redis:8.2.1@sha256:cc2dfb8f5151da2684b4a09bd04b567f92d07591d91980eb3eca21df07e12760",
+              "critical": 6,
+              "high": 25,
+              "medium": 95,
+              "low": 92,
+              "total": 235
+            }
+          ],
+          "totalImages": 1,
+          "totalVulnerabilities": 235
+        }
+      }
+    }
+  },
+  "lastScan": "2026-07-01 17:31"
+}

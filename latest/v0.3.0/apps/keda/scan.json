@@ -1,0 +1,73 @@
+{
+  "charts": {
+    "keda": {
+      "versions": [
+        "2.19.0",
+        "2.17.0"
+      ],
+      "scans": {
+        "2.17.0": {
+          "images": [
+            {
+              "image": "ghcr.io/kedacore/keda-admission-webhooks:2.17.0",
+              "critical": 1,
+              "high": 28,
+              "medium": 36,
+              "low": 2,
+              "total": 68
+            },
+            {
+              "image": "ghcr.io/kedacore/keda-metrics-apiserver:2.17.0",
+              "critical": 4,
+              "high": 33,
+              "medium": 42,
+              "low": 4,
+              "total": 84
+            },
+            {
+              "image": "ghcr.io/kedacore/keda:2.17.0",
+              "critical": 4,
+              "high": 33,
+              "medium": 42,
+              "low": 4,
+              "total": 84
+            }
+          ],
+          "totalImages": 3,
+          "totalVulnerabilities": 236
+        },
+        "2.19.0": {
+          "images": [
+            {
+              "image": "ghcr.io/kedacore/keda-admission-webhooks:2.19.0",
+              "critical": 1,
+              "high": 24,
+              "medium": 15,
+              "low": 1,
+              "total": 42
+            },
+            {
+              "image": "ghcr.io/kedacore/keda-metrics-apiserver:2.19.0",
+              "critical": 4,
+              "high": 30,
+              "medium": 20,
+              "low": 3,
+              "total": 58
+            },
+            {
+              "image": "ghcr.io/kedacore/keda:2.19.0",
+              "critical": 4,
+              "high": 30,
+              "medium": 20,
+              "low": 3,
+              "total": 58
+            }
+          ],
+          "totalImages": 3,
+          "totalVulnerabilities": 158
+        }
+      }
+    }
+  },
+  "lastScan": "2026-07-01 17:27"
+}

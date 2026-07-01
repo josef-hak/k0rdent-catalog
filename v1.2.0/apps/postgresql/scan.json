@@ -1,0 +1,32 @@
+{
+  "charts": {
+    "postgresql": {
+      "versions": [
+        "18.3.0",
+        "16.7.21"
+      ],
+      "scans": {
+        "16.7.21": {
+          "images": [],
+          "totalImages": 0,
+          "totalVulnerabilities": 0
+        },
+        "18.3.0": {
+          "images": [
+            {
+              "image": "registry-1.docker.io/bitnami/postgresql:latest",
+              "critical": 0,
+              "high": 0,
+              "medium": 0,
+              "low": 0,
+              "total": 0
+            }
+          ],
+          "totalImages": 1,
+          "totalVulnerabilities": 0
+        }
+      }
+    }
+  },
+  "lastScan": "2026-07-01 17:30"
+}

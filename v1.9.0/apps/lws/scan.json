@@ -1,0 +1,26 @@
+{
+  "charts": {
+    "lws": {
+      "versions": [
+        "0.7.0"
+      ],
+      "scans": {
+        "0.7.0": {
+          "images": [
+            {
+              "image": "registry.k8s.io/lws/lws:v0.7.0",
+              "critical": 2,
+              "high": 20,
+              "medium": 32,
+              "low": 2,
+              "total": 57
+            }
+          ],
+          "totalImages": 1,
+          "totalVulnerabilities": 57
+        }
+      }
+    }
+  },
+  "lastScan": "2026-07-01 17:30"
+}

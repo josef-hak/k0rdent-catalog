@@ -1,0 +1,80 @@
+{
+  "charts": {
+    "opencost": {
+      "versions": [
+        "2.5.8",
+        "2.3.2",
+        "1.43.2"
+      ],
+      "scans": {
+        "1.43.2": {
+          "images": [
+            {
+              "image": "ghcr.io/opencost/opencost-ui:1.113.0@sha256:4f408cf765217f889f4cb5cfcc97356e09892045a6ec951b27817a42ecb6748d",
+              "critical": 3,
+              "high": 35,
+              "medium": 36,
+              "low": 35,
+              "total": 109
+            },
+            {
+              "image": "ghcr.io/opencost/opencost:1.113.0@sha256:b313d6d320058bbd3841a948fb636182f49b46df2368d91e2ae046ed03c0f83c",
+              "critical": 4,
+              "high": 52,
+              "medium": 58,
+              "low": 27,
+              "total": 142
+            }
+          ],
+          "totalImages": 2,
+          "totalVulnerabilities": 251
+        },
+        "2.3.2": {
+          "images": [
+            {
+              "image": "ghcr.io/opencost/opencost-ui:1.117.6@sha256:fd26f004b2b2565e22240fc2a9f6adb078fdb4de3fc1a1b16c611a3c3b80683e",
+              "critical": 3,
+              "high": 31,
+              "medium": 49,
+              "low": 48,
+              "total": 135
+            },
+            {
+              "image": "ghcr.io/opencost/opencost:1.117.6@sha256:6f1a0e6fe21559a77051e7b7f9e4ac6bc80277131492ae084e8365ada805af91",
+              "critical": 4,
+              "high": 48,
+              "medium": 59,
+              "low": 43,
+              "total": 155
+            }
+          ],
+          "totalImages": 2,
+          "totalVulnerabilities": 290
+        },
+        "2.5.8": {
+          "images": [
+            {
+              "image": "ghcr.io/opencost/opencost-ui:1.119.2@sha256:0dba1a93db7ae88e956556caf9a9240879d7fcb1d5a7cb9fec0b83970c0ce50c",
+              "critical": 2,
+              "high": 17,
+              "medium": 44,
+              "low": 25,
+              "total": 92
+            },
+            {
+              "image": "ghcr.io/opencost/opencost:1.119.2@sha256:4b8de6e029b9dc1f7e68bdf1cf02fca7649614c23812e51a63820f113ca97b89",
+              "critical": 3,
+              "high": 45,
+              "medium": 32,
+              "low": 21,
+              "total": 102
+            }
+          ],
+          "totalImages": 2,
+          "totalVulnerabilities": 194
+        }
+      }
+    }
+  },
+  "lastScan": "2026-07-01 17:29"
+}

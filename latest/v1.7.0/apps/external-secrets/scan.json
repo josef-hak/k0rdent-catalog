@@ -1,0 +1,116 @@
+{
+  "charts": {
+    "external-secrets": {
+      "versions": [
+        "2.6.0",
+        "2.4.1",
+        "2.3.0",
+        "2.0.0",
+        "1.2.1",
+        "0.18.2",
+        "0.11.0"
+      ],
+      "scans": {
+        "0.11.0": {
+          "images": [
+            {
+              "image": "oci.external-secrets.io/external-secrets/external-secrets:v0.11.0",
+              "critical": 2,
+              "high": 34,
+              "medium": 44,
+              "low": 5,
+              "total": 86
+            }
+          ],
+          "totalImages": 1,
+          "totalVulnerabilities": 86
+        },
+        "0.18.2": {
+          "images": [
+            {
+              "image": "oci.external-secrets.io/external-secrets/external-secrets:v0.18.2",
+              "critical": 2,
+              "high": 31,
+              "medium": 41,
+              "low": 5,
+              "total": 80
+            }
+          ],
+          "totalImages": 1,
+          "totalVulnerabilities": 80
+        },
+        "1.2.1": {
+          "images": [
+            {
+              "image": "ghcr.io/external-secrets/external-secrets:v1.2.1",
+              "critical": 2,
+              "high": 29,
+              "medium": 27,
+              "low": 4,
+              "total": 63
+            }
+          ],
+          "totalImages": 1,
+          "totalVulnerabilities": 63
+        },
+        "2.0.0": {
+          "images": [
+            {
+              "image": "ghcr.io/external-secrets/external-secrets:v2.0.0",
+              "critical": 2,
+              "high": 28,
+              "medium": 23,
+              "low": 4,
+              "total": 58
+            }
+          ],
+          "totalImages": 1,
+          "totalVulnerabilities": 58
+        },
+        "2.3.0": {
+          "images": [
+            {
+              "image": "ghcr.io/external-secrets/external-secrets:v2.3.0",
+              "critical": 0,
+              "high": 23,
+              "medium": 18,
+              "low": 2,
+              "total": 44
+            }
+          ],
+          "totalImages": 1,
+          "totalVulnerabilities": 44
+        },
+        "2.4.1": {
+          "images": [
+            {
+              "image": "ghcr.io/external-secrets/external-secrets:v2.4.1",
+              "critical": 0,
+              "high": 23,
+              "medium": 16,
+              "low": 1,
+              "total": 41
+            }
+          ],
+          "totalImages": 1,
+          "totalVulnerabilities": 41
+        },
+        "2.6.0": {
+          "images": [
+            {
+              "image": "ghcr.io/external-secrets/external-secrets:v2.6.0",
+              "critical": 0,
+              "high": 13,
+              "medium": 10,
+              "low": 1,
+              "total": 24
+            }
+          ],
+          "totalImages": 1,
+          "totalVulnerabilities": 24
+        }
+      }
+    }
+  },
+  "lastScan": "2026-07-01 17:27"
+}

@@ -1,0 +1,42 @@
+{
+  "charts": {
+    "volcano": {
+      "versions": [
+        "1.14.1"
+      ],
+      "scans": {
+        "1.14.1": {
+          "images": [
+            {
+              "image": "docker.io/volcanosh/vc-controller-manager:v1.14.1",
+              "critical": 3,
+              "high": 42,
+              "medium": 55,
+              "low": 22,
+              "total": 123
+            },
+            {
+              "image": "docker.io/volcanosh/vc-scheduler:v1.14.1",
+              "critical": 4,
+              "high": 33,
+              "medium": 49,
+              "low": 23,
+              "total": 110
+            },
+            {
+              "image": "docker.io/volcanosh/vc-webhook-manager:v1.14.1",
+              "critical": 5,
+              "high": 67,
+              "medium": 97,
+              "low": 35,
+              "total": 206
+            }
+          ],
+          "totalImages": 3,
+          "totalVulnerabilities": 439
+        }
+      }
+    }
+  },
+  "lastScan": "2026-07-01 17:32"
+}

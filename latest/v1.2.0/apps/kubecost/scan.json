@@ -1,0 +1,74 @@
+{
+  "charts": {
+    "kubecost": {
+      "versions": [
+        "2.5.3"
+      ],
+      "scans": {
+        "2.5.3": {
+          "images": [
+            {
+              "image": "alpine/k8s:1.26.9",
+              "critical": 39,
+              "high": 432,
+              "medium": 722,
+              "low": 71,
+              "total": 1274
+            },
+            {
+              "image": "gcr.io/kubecost1/cost-model:prod-2.5.3",
+              "critical": 2,
+              "high": 58,
+              "medium": 200,
+              "low": 90,
+              "total": 351
+            },
+            {
+              "image": "gcr.io/kubecost1/frontend:prod-2.5.3",
+              "critical": 2,
+              "high": 21,
+              "medium": 53,
+              "low": 54,
+              "total": 130
+            },
+            {
+              "image": "gcr.io/kubecost1/kubecost-modeling:v0.1.19",
+              "critical": 0,
+              "high": 88,
+              "medium": 340,
+              "low": 209,
+              "total": 637
+            },
+            {
+              "image": "ghcr.io/kiwigrid/k8s-sidecar:1.28.1",
+              "critical": 2,
+              "high": 31,
+              "medium": 26,
+              "low": 23,
+              "total": 82
+            },
+            {
+              "image": "grafana/grafana:11.3.1",
+              "critical": 8,
+              "high": 87,
+              "medium": 142,
+              "low": 48,
+              "total": 288
+            },
+            {
+              "image": "quay.io/prometheus/prometheus:v2.55.1",
+              "critical": 4,
+              "high": 72,
+              "medium": 91,
+              "low": 8,
+              "total": 177
+            }
+          ],
+          "totalImages": 7,
+          "totalVulnerabilities": 2939
+        }
+      }
+    }
+  },
+  "lastScan": "2026-07-01 17:30"
+}

@@ -1,0 +1,314 @@
+{
+  "charts": {
+    "openebs": {
+      "versions": [
+        "4.5.0"
+      ],
+      "scans": {
+        "4.5.0": {
+          "images": [
+            {
+              "image": "docker.io/grafana/alloy:v1.8.1",
+              "critical": 2,
+              "high": 48,
+              "medium": 145,
+              "low": 58,
+              "total": 254
+            },
+            {
+              "image": "docker.io/grafana/loki:3.4.2",
+              "critical": 2,
+              "high": 36,
+              "medium": 44,
+              "low": 3,
+              "total": 86
+            },
+            {
+              "image": "docker.io/kiwigrid/k8s-sidecar:1.30.2",
+              "critical": 3,
+              "high": 27,
+              "medium": 27,
+              "low": 21,
+              "total": 78
+            },
+            {
+              "image": "docker.io/nats:2.9.17-alpine",
+              "critical": 5,
+              "high": 37,
+              "medium": 78,
+              "low": 17,
+              "total": 138
+            },
+            {
+              "image": "docker.io/natsio/nats-box:0.13.8",
+              "critical": 28,
+              "high": 244,
+              "medium": 376,
+              "low": 52,
+              "total": 703
+            },
+            {
+              "image": "docker.io/natsio/nats-server-config-reloader:0.10.1",
+              "critical": 4,
+              "high": 51,
+              "medium": 86,
+              "low": 29,
+              "total": 171
+            },
+            {
+              "image": "docker.io/natsio/prometheus-nats-exporter:0.11.0",
+              "critical": 4,
+              "high": 49,
+              "medium": 92,
+              "low": 29,
+              "total": 175
+            },
+            {
+              "image": "docker.io/openebs/alpine-bash:4.5.0",
+              "critical": 0,
+              "high": 2,
+              "medium": 8,
+              "low": 20,
+              "total": 30
+            },
+            {
+              "image": "docker.io/openebs/alpine-sh:4.5.0",
+              "critical": 0,
+              "high": 2,
+              "medium": 8,
+              "low": 20,
+              "total": 30
+            },
+            {
+              "image": "docker.io/openebs/etcd:3.6.4-debian-12-r0",
+              "critical": 21,
+              "high": 167,
+              "medium": 290,
+              "low": 99,
+              "total": 600
+            },
+            {
+              "image": "docker.io/openebs/lvm-driver:1.9.0",
+              "critical": 4,
+              "high": 35,
+              "medium": 60,
+              "low": 44,
+              "total": 148
+            },
+            {
+              "image": "docker.io/openebs/mayastor-agent-core:v2.11.0",
+              "critical": 0,
+              "high": 1,
+              "medium": 5,
+              "low": 4,
+              "total": 10
+            },
+            {
+              "image": "docker.io/openebs/mayastor-agent-ha-cluster:v2.11.0",
+              "critical": 0,
+              "high": 1,
+              "medium": 5,
+              "low": 4,
+              "total": 10
+            },
+            {
+              "image": "docker.io/openebs/mayastor-agent-ha-node:v2.11.0",
+              "critical": 0,
+              "high": 1,
+              "medium": 5,
+              "low": 4,
+              "total": 10
+            },
+            {
+              "image": "docker.io/openebs/mayastor-api-rest:v2.11.0",
+              "critical": 0,
+              "high": 1,
+              "medium": 6,
+              "low": 4,
+              "total": 11
+            },
+            {
+              "image": "docker.io/openebs/mayastor-csi-controller:v2.11.0",
+              "critical": 0,
+              "high": 1,
+              "medium": 5,
+              "low": 4,
+              "total": 10
+            },
+            {
+              "image": "docker.io/openebs/mayastor-csi-node:v2.11.0",
+              "critical": 0,
+              "high": 1,
+              "medium": 5,
+              "low": 4,
+              "total": 10
+            },
+            {
+              "image": "docker.io/openebs/mayastor-io-engine:v2.11.0",
+              "critical": 0,
+              "high": 2,
+              "medium": 2,
+              "low": 4,
+              "total": 8
+            },
+            {
+              "image": "docker.io/openebs/mayastor-metrics-exporter-io-engine:v2.11.0",
+              "critical": 0,
+              "high": 2,
+              "medium": 6,
+              "low": 6,
+              "total": 14
+            },
+            {
+              "image": "docker.io/openebs/mayastor-obs-callhome-stats:v2.11.0",
+              "critical": 0,
+              "high": 7,
+              "medium": 8,
+              "low": 7,
+              "total": 22
+            },
+            {
+              "image": "docker.io/openebs/mayastor-obs-callhome:v2.11.0",
+              "critical": 0,
+              "high": 7,
+              "medium": 8,
+              "low": 7,
+              "total": 22
+            },
+            {
+              "image": "docker.io/openebs/mayastor-operator-diskpool:v2.11.0",
+              "critical": 0,
+              "high": 1,
+              "medium": 5,
+              "low": 4,
+              "total": 10
+            },
+            {
+              "image": "docker.io/openebs/provisioner-localpv:4.5.0",
+              "critical": 2,
+              "high": 19,
+              "medium": 28,
+              "low": 22,
+              "total": 76
+            },
+            {
+              "image": "docker.io/openebs/zfs-driver:2.10.0",
+              "critical": 2,
+              "high": 15,
+              "medium": 11,
+              "low": 1,
+              "total": 30
+            },
+            {
+              "image": "quay.io/minio/mc:RELEASE.2024-11-21T17-21-54Z",
+              "critical": 2,
+              "high": 36,
+              "medium": 78,
+              "low": 16,
+              "total": 133
+            },
+            {
+              "image": "quay.io/minio/minio:RELEASE.2024-12-18T13-15-44Z",
+              "critical": 4,
+              "high": 75,
+              "medium": 126,
+              "low": 20,
+              "total": 227
+            },
+            {
+              "image": "quay.io/prometheus-operator/prometheus-config-reloader:v0.81.0",
+              "critical": 1,
+              "high": 30,
+              "medium": 41,
+              "low": 2,
+              "total": 75
+            },
+            {
+              "image": "registry.k8s.io/sig-storage/csi-attacher:v4.8.1",
+              "critical": 2,
+              "high": 18,
+              "medium": 36,
+              "low": 3,
+              "total": 60
+            },
+            {
+              "image": "registry.k8s.io/sig-storage/csi-node-driver-registrar:v2.13.0",
+              "critical": 2,
+              "high": 18,
+              "medium": 36,
+              "low": 3,
+              "total": 60
+            },
+            {
+              "image": "registry.k8s.io/sig-storage/csi-provisioner:v5.2.0",
+              "critical": 2,
+              "high": 18,
+              "medium": 36,
+              "low": 3,
+              "total": 60
+            },
+            {
+              "image": "registry.k8s.io/sig-storage/csi-provisioner:v6.1.0",
+              "critical": 2,
+              "high": 30,
+              "medium": 31,
+              "low": 2,
+              "total": 66
+            },
+            {
+              "image": "registry.k8s.io/sig-storage/csi-resizer:v1.13.2",
+              "critical": 2,
+              "high": 18,
+              "medium": 36,
+              "low": 3,
+              "total": 60
+            },
+            {
+              "image": "registry.k8s.io/sig-storage/csi-resizer:v2.0.0",
+              "critical": 2,
+              "high": 29,
+              "medium": 31,
+              "low": 2,
+              "total": 65
+            },
+            {
+              "image": "registry.k8s.io/sig-storage/csi-snapshotter:v7.0.0",
+              "critical": 3,
+              "high": 22,
+              "medium": 46,
+              "low": 3,
+              "total": 80
+            },
+            {
+              "image": "registry.k8s.io/sig-storage/csi-snapshotter:v8.2.0",
+              "critical": 2,
+              "high": 19,
+              "medium": 36,
+              "low": 3,
+              "total": 61
+            },
+            {
+              "image": "registry.k8s.io/sig-storage/snapshot-controller:v7.0.0",
+              "critical": 2,
+              "high": 22,
+              "medium": 46,
+              "low": 3,
+              "total": 79
+            },
+            {
+              "image": "registry.k8s.io/sig-storage/snapshot-controller:v8.2.0",
+              "critical": 1,
+              "high": 19,
+              "medium": 36,
+              "low": 3,
+              "total": 60
+            }
+          ],
+          "totalImages": 37,
+          "totalVulnerabilities": 3742
+        }
+      }
+    }
+  },
+  "lastScan": "2026-07-01 17:32"
+}

@@ -1,0 +1,56 @@
+{
+  "charts": {
+    "dex": {
+      "versions": [
+        "0.24.1",
+        "0.23.0",
+        "0.19.1"
+      ],
+      "scans": {
+        "0.19.1": {
+          "images": [
+            {
+              "image": "ghcr.io/dexidp/dex:v2.41.1",
+              "critical": 7,
+              "high": 103,
+              "medium": 141,
+              "low": 36,
+              "total": 289
+            }
+          ],
+          "totalImages": 1,
+          "totalVulnerabilities": 289
+        },
+        "0.23.0": {
+          "images": [
+            {
+              "image": "ghcr.io/dexidp/dex:v2.42.0",
+              "critical": 7,
+              "high": 95,
+              "medium": 130,
+              "low": 29,
+              "total": 263
+            }
+          ],
+          "totalImages": 1,
+          "totalVulnerabilities": 263
+        },
+        "0.24.1": {
+          "images": [
+            {
+              "image": "ghcr.io/dexidp/dex:v2.44.0",
+              "critical": 7,
+              "high": 92,
+              "medium": 122,
+              "low": 51,
+              "total": 274
+            }
+          ],
+          "totalImages": 1,
+          "totalVulnerabilities": 274
+        }
+      }
+    }
+  },
+  "lastScan": "2026-07-01 17:27"
+}

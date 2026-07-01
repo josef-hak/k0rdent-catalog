@@ -1,0 +1,26 @@
+{
+  "charts": {
+    "pypiserver": {
+      "versions": [
+        "0.1.8"
+      ],
+      "scans": {
+        "0.1.8": {
+          "images": [
+            {
+              "image": "pypiserver/pypiserver:v2.4.0",
+              "critical": 8,
+              "high": 80,
+              "medium": 79,
+              "low": 24,
+              "total": 191
+            }
+          ],
+          "totalImages": 1,
+          "totalVulnerabilities": 191
+        }
+      }
+    }
+  },
+  "lastScan": "2026-07-01 17:31"
+}

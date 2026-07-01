@@ -1,0 +1,23 @@
+{
+  "charts": {
+    "runai-control-plane": {
+      "versions": [
+        "0.3.0",
+        "0.2.3"
+      ],
+      "scans": {
+        "0.2.3": {
+          "images": [],
+          "totalImages": 0,
+          "totalVulnerabilities": 0
+        },
+        "0.3.0": {
+          "images": [],
+          "totalImages": 0,
+          "totalVulnerabilities": 0
+        }
+      }
+    }
+  },
+  "lastScan": "2026-07-01 17:30"
+}

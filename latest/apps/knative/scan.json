@@ -1,0 +1,80 @@
+{
+  "charts": {
+    "knative-operator": {
+      "versions": [
+        "1.21.0",
+        "1.19.0",
+        "1.17.4"
+      ],
+      "scans": {
+        "1.17.4": {
+          "images": [
+            {
+              "image": "gcr.io/knative-releases/knative.dev/operator/cmd/operator:v1.17.4",
+              "critical": 2,
+              "high": 19,
+              "medium": 33,
+              "low": 2,
+              "total": 57
+            },
+            {
+              "image": "gcr.io/knative-releases/knative.dev/operator/cmd/webhook:v1.17.4",
+              "critical": 2,
+              "high": 19,
+              "medium": 33,
+              "low": 2,
+              "total": 57
+            }
+          ],
+          "totalImages": 2,
+          "totalVulnerabilities": 114
+        },
+        "1.19.0": {
+          "images": [
+            {
+              "image": "gcr.io/knative-releases/knative.dev/operator/cmd/operator:v1.19.0",
+              "critical": 2,
+              "high": 20,
+              "medium": 29,
+              "low": 2,
+              "total": 54
+            },
+            {
+              "image": "gcr.io/knative-releases/knative.dev/operator/cmd/webhook:v1.19.0",
+              "critical": 2,
+              "high": 20,
+              "medium": 29,
+              "low": 2,
+              "total": 54
+            }
+          ],
+          "totalImages": 2,
+          "totalVulnerabilities": 108
+        },
+        "1.21.0": {
+          "images": [
+            {
+              "image": "gcr.io/knative-releases/knative.dev/operator/cmd/operator:v1.21.0",
+              "critical": 2,
+              "high": 18,
+              "medium": 13,
+              "low": 1,
+              "total": 35
+            },
+            {
+              "image": "gcr.io/knative-releases/knative.dev/operator/cmd/webhook:v1.21.0",
+              "critical": 2,
+              "high": 18,
+              "medium": 13,
+              "low": 1,
+              "total": 35
+            }
+          ],
+          "totalImages": 2,
+          "totalVulnerabilities": 70
+        }
+      }
+    }
+  },
+  "lastScan": "2026-07-01 17:28"
+}

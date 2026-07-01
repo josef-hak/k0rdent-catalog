@@ -1,0 +1,126 @@
+{
+  "charts": {
+    "ingress-nginx": {
+      "versions": [
+        "4.15.1",
+        "4.14.3",
+        "4.13.2",
+        "4.12.3",
+        "4.11.5"
+      ],
+      "scans": {
+        "4.11.5": {
+          "images": [
+            {
+              "image": "registry.k8s.io/ingress-nginx/controller:v1.11.5@sha256:a1cbad75b0a7098bf9325132794dddf9eef917e8a7fe246749a4cea7ff6f01eb",
+              "critical": 6,
+              "high": 76,
+              "medium": 119,
+              "low": 36,
+              "total": 238
+            },
+            {
+              "image": "registry.k8s.io/ingress-nginx/kube-webhook-certgen:v1.5.2@sha256:e8825994b7a2c7497375a9b945f386506ca6a3eda80b89b74ef2db743f66a5ea",
+              "critical": 1,
+              "high": 18,
+              "medium": 32,
+              "low": 2,
+              "total": 54
+            }
+          ],
+          "totalImages": 2,
+          "totalVulnerabilities": 292
+        },
+        "4.12.3": {
+          "images": [
+            {
+              "image": "registry.k8s.io/ingress-nginx/controller:v1.12.3@sha256:ac444cd9515af325ba577b596fe4f27a34be1aa330538e8b317ad9d6c8fb94ee",
+              "critical": 6,
+              "high": 71,
+              "medium": 110,
+              "low": 36,
+              "total": 224
+            },
+            {
+              "image": "registry.k8s.io/ingress-nginx/kube-webhook-certgen:v1.5.4@sha256:7a38cf0f8480775baaee71ab519c7465fd1dfeac66c421f28f087786e631456e",
+              "critical": 1,
+              "high": 18,
+              "medium": 29,
+              "low": 2,
+              "total": 51
+            }
+          ],
+          "totalImages": 2,
+          "totalVulnerabilities": 275
+        },
+        "4.13.2": {
+          "images": [
+            {
+              "image": "registry.k8s.io/ingress-nginx/controller:v1.13.2@sha256:1f7eaeb01933e719c8a9f4acd8181e555e582330c7d50f24484fb64d2ba9b2ef",
+              "critical": 6,
+              "high": 71,
+              "medium": 108,
+              "low": 69,
+              "total": 255
+            },
+            {
+              "image": "registry.k8s.io/ingress-nginx/kube-webhook-certgen:v1.6.2@sha256:050a34002d5bb4966849c880c56c91f5320372564245733b33d4b3461b4dbd24",
+              "critical": 1,
+              "high": 17,
+              "medium": 25,
+              "low": 2,
+              "total": 46
+            }
+          ],
+          "totalImages": 2,
+          "totalVulnerabilities": 301
+        },
+        "4.14.3": {
+          "images": [
+            {
+              "image": "registry.k8s.io/ingress-nginx/controller:v1.14.3@sha256:82917be97c0939f6ada1717bb39aa7e66c229d6cfb10dcfc8f1bd42f9efe0f81",
+              "critical": 6,
+              "high": 56,
+              "medium": 61,
+              "low": 37,
+              "total": 161
+            },
+            {
+              "image": "registry.k8s.io/ingress-nginx/kube-webhook-certgen:v1.6.7@sha256:7c74a715af2c94cb734785b4d3ea1357b4f02b88e1e123c622a9cb68b62f669c",
+              "critical": 1,
+              "high": 15,
+              "medium": 11,
+              "low": 1,
+              "total": 29
+            }
+          ],
+          "totalImages": 2,
+          "totalVulnerabilities": 190
+        },
+        "4.15.1": {
+          "images": [
+            {
+              "image": "registry.k8s.io/ingress-nginx/controller:v1.15.1@sha256:594ceea76b01c592858f803f9ff4d2cb40542cae2060410b2c95f75907d659e1",
+              "critical": 3,
+              "high": 54,
+              "medium": 57,
+              "low": 34,
+              "total": 149
+            },
+            {
+              "image": "registry.k8s.io/ingress-nginx/kube-webhook-certgen:v1.6.9@sha256:01038e7de14b78d702d2849c3aad72fd25903c4765af63cf16aa3398f5d5f2dd",
+              "critical": 0,
+              "high": 15,
+              "medium": 10,
+              "low": 0,
+              "total": 26
+            }
+          ],
+          "totalImages": 2,
+          "totalVulnerabilities": 175
+        }
+      }
+    }
+  },
+  "lastScan": "2026-07-01 17:29"
+}

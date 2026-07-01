@@ -1,0 +1,26 @@
+{
+  "charts": {
+    "haproxy-ingress": {
+      "versions": [
+        "1.49.0"
+      ],
+      "scans": {
+        "1.49.0": {
+          "images": [
+            {
+              "image": "docker.io/haproxytech/kubernetes-ingress:3.2.6",
+              "critical": 3,
+              "high": 35,
+              "medium": 19,
+              "low": 1,
+              "total": 59
+            }
+          ],
+          "totalImages": 1,
+          "totalVulnerabilities": 59
+        }
+      }
+    }
+  },
+  "lastScan": "2026-07-01 17:28"
+}

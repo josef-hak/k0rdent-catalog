@@ -1,0 +1,336 @@
+{
+  "charts": {
+    "hpe-csi-driver": {
+      "versions": [
+        "3.1.0",
+        "3.0.2",
+        "2.5.2"
+      ],
+      "scans": {
+        "2.5.2": {
+          "images": [
+            {
+              "image": "quay.io/hpestorage/alletra-6000-and-nimble-csp:v2.5.2",
+              "critical": 0,
+              "high": 51,
+              "medium": 284,
+              "low": 172,
+              "total": 507
+            },
+            {
+              "image": "quay.io/hpestorage/alletra-9000-primera-and-3par-csp:v2.5.2",
+              "critical": 0,
+              "high": 41,
+              "medium": 167,
+              "low": 87,
+              "total": 296
+            },
+            {
+              "image": "quay.io/hpestorage/csi-driver:v2.5.2",
+              "critical": 1,
+              "high": 54,
+              "medium": 220,
+              "low": 120,
+              "total": 396
+            },
+            {
+              "image": "quay.io/hpestorage/csi-extensions:v1.2.8",
+              "critical": 1,
+              "high": 41,
+              "medium": 167,
+              "low": 87,
+              "total": 297
+            },
+            {
+              "image": "quay.io/hpestorage/volume-group-provisioner:v1.0.7",
+              "critical": 1,
+              "high": 43,
+              "medium": 172,
+              "low": 87,
+              "total": 304
+            },
+            {
+              "image": "quay.io/hpestorage/volume-group-snapshotter:v1.0.7",
+              "critical": 1,
+              "high": 43,
+              "medium": 172,
+              "low": 87,
+              "total": 304
+            },
+            {
+              "image": "quay.io/hpestorage/volume-mutator:v1.3.7",
+              "critical": 1,
+              "high": 40,
+              "medium": 167,
+              "low": 87,
+              "total": 296
+            },
+            {
+              "image": "registry.k8s.io/sig-storage/csi-attacher:v4.8.0",
+              "critical": 2,
+              "high": 19,
+              "medium": 36,
+              "low": 3,
+              "total": 61
+            },
+            {
+              "image": "registry.k8s.io/sig-storage/csi-node-driver-registrar:v2.13.0",
+              "critical": 2,
+              "high": 18,
+              "medium": 36,
+              "low": 3,
+              "total": 60
+            },
+            {
+              "image": "registry.k8s.io/sig-storage/csi-provisioner:v5.1.0",
+              "critical": 2,
+              "high": 20,
+              "medium": 38,
+              "low": 3,
+              "total": 64
+            },
+            {
+              "image": "registry.k8s.io/sig-storage/csi-resizer:v1.12.0",
+              "critical": 2,
+              "high": 20,
+              "medium": 38,
+              "low": 3,
+              "total": 64
+            },
+            {
+              "image": "registry.k8s.io/sig-storage/csi-snapshotter:v8.2.0",
+              "critical": 2,
+              "high": 19,
+              "medium": 36,
+              "low": 3,
+              "total": 61
+            }
+          ],
+          "totalImages": 12,
+          "totalVulnerabilities": 2710
+        },
+        "3.0.2": {
+          "images": [
+            {
+              "image": "quay.io/hpestorage/alletra-6000-and-nimble-csp:v3.0.0",
+              "critical": 0,
+              "high": 40,
+              "medium": 260,
+              "low": 171,
+              "total": 471
+            },
+            {
+              "image": "quay.io/hpestorage/alletra-9000-primera-and-3par-csp:v3.0.1",
+              "critical": 1,
+              "high": 46,
+              "medium": 172,
+              "low": 89,
+              "total": 309
+            },
+            {
+              "image": "quay.io/hpestorage/alletrastoragemp-b10000-nfs-csp:v1.0.0",
+              "critical": 1,
+              "high": 46,
+              "medium": 173,
+              "low": 89,
+              "total": 310
+            },
+            {
+              "image": "quay.io/hpestorage/csi-driver:v3.0.2",
+              "critical": 2,
+              "high": 59,
+              "medium": 222,
+              "low": 121,
+              "total": 405
+            },
+            {
+              "image": "quay.io/hpestorage/csi-extensions:v1.2.9",
+              "critical": 1,
+              "high": 34,
+              "medium": 146,
+              "low": 87,
+              "total": 269
+            },
+            {
+              "image": "quay.io/hpestorage/volume-group-provisioner:v1.0.8",
+              "critical": 1,
+              "high": 36,
+              "medium": 151,
+              "low": 87,
+              "total": 276
+            },
+            {
+              "image": "quay.io/hpestorage/volume-group-snapshotter:v1.0.8",
+              "critical": 1,
+              "high": 36,
+              "medium": 151,
+              "low": 87,
+              "total": 276
+            },
+            {
+              "image": "quay.io/hpestorage/volume-mutator:v1.3.8",
+              "critical": 1,
+              "high": 33,
+              "medium": 146,
+              "low": 87,
+              "total": 268
+            },
+            {
+              "image": "registry.k8s.io/sig-storage/csi-attacher:v4.9.0",
+              "critical": 2,
+              "high": 18,
+              "medium": 30,
+              "low": 2,
+              "total": 53
+            },
+            {
+              "image": "registry.k8s.io/sig-storage/csi-node-driver-registrar:v2.14.0",
+              "critical": 2,
+              "high": 19,
+              "medium": 30,
+              "low": 2,
+              "total": 54
+            },
+            {
+              "image": "registry.k8s.io/sig-storage/csi-provisioner:v5.3.0",
+              "critical": 2,
+              "high": 18,
+              "medium": 30,
+              "low": 2,
+              "total": 53
+            },
+            {
+              "image": "registry.k8s.io/sig-storage/csi-resizer:v1.13.2",
+              "critical": 2,
+              "high": 18,
+              "medium": 36,
+              "low": 3,
+              "total": 60
+            },
+            {
+              "image": "registry.k8s.io/sig-storage/csi-snapshotter:v8.2.1",
+              "critical": 2,
+              "high": 18,
+              "medium": 34,
+              "low": 2,
+              "total": 57
+            }
+          ],
+          "totalImages": 13,
+          "totalVulnerabilities": 2861
+        },
+        "3.1.0": {
+          "images": [
+            {
+              "image": "quay.io/hpestorage/alletra-6000-and-nimble-csp:v3.1.0",
+              "critical": 0,
+              "high": 23,
+              "medium": 202,
+              "low": 170,
+              "total": 395
+            },
+            {
+              "image": "quay.io/hpestorage/alletra-9000-primera-and-3par-csp:v3.1.0",
+              "critical": 0,
+              "high": 36,
+              "medium": 127,
+              "low": 74,
+              "total": 238
+            },
+            {
+              "image": "quay.io/hpestorage/alletrastoragemp-b10000-nfs-csp:v1.1.0",
+              "critical": 0,
+              "high": 36,
+              "medium": 127,
+              "low": 74,
+              "total": 238
+            },
+            {
+              "image": "quay.io/hpestorage/csi-driver:v3.1.0",
+              "critical": 1,
+              "high": 39,
+              "medium": 163,
+              "low": 95,
+              "total": 299
+            },
+            {
+              "image": "quay.io/hpestorage/csi-extensions:v1.2.10",
+              "critical": 1,
+              "high": 26,
+              "medium": 118,
+              "low": 73,
+              "total": 219
+            },
+            {
+              "image": "quay.io/hpestorage/volume-group-provisioner:v1.0.9",
+              "critical": 1,
+              "high": 26,
+              "medium": 118,
+              "low": 73,
+              "total": 219
+            },
+            {
+              "image": "quay.io/hpestorage/volume-group-snapshotter:v1.0.9",
+              "critical": 1,
+              "high": 26,
+              "medium": 118,
+              "low": 73,
+              "total": 219
+            },
+            {
+              "image": "quay.io/hpestorage/volume-mutator:v1.3.9",
+              "critical": 1,
+              "high": 17,
+              "medium": 114,
+              "low": 73,
+              "total": 206
+            },
+            {
+              "image": "registry.k8s.io/sig-storage/csi-attacher:v4.11.0",
+              "critical": 1,
+              "high": 27,
+              "medium": 15,
+              "low": 1,
+              "total": 45
+            },
+            {
+              "image": "registry.k8s.io/sig-storage/csi-node-driver-registrar:v2.16.0",
+              "critical": 1,
+              "high": 16,
+              "medium": 11,
+              "low": 1,
+              "total": 30
+            },
+            {
+              "image": "registry.k8s.io/sig-storage/csi-provisioner:v6.2.0",
+              "critical": 1,
+              "high": 26,
+              "medium": 15,
+              "low": 1,
+              "total": 44
+            },
+            {
+              "image": "registry.k8s.io/sig-storage/csi-resizer:v2.1.0",
+              "critical": 1,
+              "high": 27,
+              "medium": 15,
+              "low": 1,
+              "total": 45
+            },
+            {
+              "image": "registry.k8s.io/sig-storage/csi-snapshotter:v8.5.0",
+              "critical": 1,
+              "high": 26,
+              "medium": 15,
+              "low": 1,
+              "total": 44
+            }
+          ],
+          "totalImages": 13,
+          "totalVulnerabilities": 2241
+        }
+      }
+    }
+  },
+  "lastScan": "2026-07-01 17:30"
+}

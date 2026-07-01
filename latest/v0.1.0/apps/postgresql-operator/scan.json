@@ -1,0 +1,89 @@
+{
+  "charts": {
+    "postgres-operator": {
+      "versions": [
+        "1.15.1",
+        "1.14.0"
+      ],
+      "scans": {
+        "1.14.0": {
+          "images": [
+            {
+              "image": "ghcr.io/zalando/postgres-operator/logical-backup:v1.13.0",
+              "critical": 0,
+              "high": 35,
+              "medium": 485,
+              "low": 223,
+              "total": 743
+            },
+            {
+              "image": "ghcr.io/zalando/postgres-operator:v1.14.0",
+              "critical": 3,
+              "high": 51,
+              "medium": 66,
+              "low": 32,
+              "total": 153
+            },
+            {
+              "image": "ghcr.io/zalando/spilo-17:4.0-p2",
+              "critical": 2,
+              "high": 57,
+              "medium": 536,
+              "low": 158,
+              "total": 754
+            },
+            {
+              "image": "registry.opensource.zalan.do/acid/pgbouncer:master-32",
+              "critical": 1,
+              "high": 25,
+              "medium": 29,
+              "low": 31,
+              "total": 86
+            }
+          ],
+          "totalImages": 4,
+          "totalVulnerabilities": 1736
+        },
+        "1.15.1": {
+          "images": [
+            {
+              "image": "ghcr.io/zalando/postgres-operator/logical-backup:v1.15.1",
+              "critical": 0,
+              "high": 34,
+              "medium": 209,
+              "low": 170,
+              "total": 413
+            },
+            {
+              "image": "ghcr.io/zalando/postgres-operator:v1.15.1",
+              "critical": 3,
+              "high": 44,
+              "medium": 46,
+              "low": 41,
+              "total": 135
+            },
+            {
+              "image": "ghcr.io/zalando/spilo-17:4.0-p3",
+              "critical": 2,
+              "high": 54,
+              "medium": 426,
+              "low": 135,
+              "total": 618
+            },
+            {
+              "image": "registry.opensource.zalan.do/acid/pgbouncer:master-32",
+              "critical": 1,
+              "high": 25,
+              "medium": 29,
+              "low": 31,
+              "total": 86
+            }
+          ],
+          "totalImages": 4,
+          "totalVulnerabilities": 1252
+        }
+      }
+    }
+  },
+  "lastScan": "2026-07-01 17:31"
+}

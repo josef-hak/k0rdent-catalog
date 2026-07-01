@@ -1,0 +1,17 @@
+{
+  "charts": {
+    "nirmata-kyverno": {
+      "versions": [
+        "3.3.13"
+      ],
+      "scans": {
+        "3.3.13": {
+          "images": [],
+          "totalImages": 0,
+          "totalVulnerabilities": 0
+        }
+      }
+    }
+  },
+  "lastScan": "2026-07-01 17:30"
+}
